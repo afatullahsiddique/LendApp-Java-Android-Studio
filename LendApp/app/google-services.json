@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "322865631893",
+    "firebase_url": "https://lendapp-c7c09-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lendapp-c7c09",
+    "storage_bucket": "lendapp-c7c09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322865631893:android:645a82eac2cb98f7ac019c",
+        "android_client_info": {
+          "package_name": "com.example.lendapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEfgdpZbuh48_G-4uVH1e8qS1_XjBj33U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

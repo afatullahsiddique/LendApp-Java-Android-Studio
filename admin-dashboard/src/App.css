@@ -1,0 +1,45 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1em;
+  color: white;
+}
+
+.navbar .links a {
+  margin-right: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.manage-users table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+.manage-users th, .manage-users td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+.manage-users th {
+  background-color: #f4f4f4;
+}
+
+.manage-users img {
+  border-radius: 50%;
+}

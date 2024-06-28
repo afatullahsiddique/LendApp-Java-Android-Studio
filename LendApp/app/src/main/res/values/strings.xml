@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LendDo</string>
+    <string name="emailNumber_str">Enter Email or Phone Number</string>
+    <string name="number">Number</string>
+    <string name="password_hint">Password</string>
+    <string name="register">Register</string>
+    <string name="signup">SignUp</string>
+    <string name="n_id">Enter Your NID Number</string>
+    <string name="phn_number">Enter Phone Number</string>
+    <string name="create_password">Create a Password</string>
+    <string name="login_str">Login</string>
+    <string name="email_str">Enter Email Address</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="account_create">Create an Account</string>
+
+    <string name="authorization">Authorization</string>
+
+    <string name="disagree">Disagree</string>
+    <string name="agree">Agree</string>
+    <string name="header_image">dfsd</string>
+
+    <!-- Add new strings for payment methods -->
+    <string-array name="payment_methods">
+        <item>Select Payment Method</item>
+        <item>Nagad</item>
+        <item>Bkash</item>
+    </string-array>
+
+</resources>

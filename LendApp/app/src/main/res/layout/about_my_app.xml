@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back_arrow"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/left_arrow"
+            android:contentDescription="back"/>
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="159dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        android:text="লেনদোতে স্বাগতম, আপনার বিশ্বস্ত আর্থিক অংশীদার। আমরা ব্যক্তিদের এবং ছোট ব্যবসায়ের জন্য সুলভ এবং সহজলভ্য মাইক্রোক্রেডিট সমাধান প্রদানে নিবেদিত। আমাদের মিশন হল ব্যক্তিদের ক্ষমতায়ন করা এবং আর্থিক অন্তর্ভুক্তির প্রচার করা, নমনীয় ঋণের বিকল্প এবং ব্যক্তিগত সহায়তা অফার করা। আমাদের ব্যবহারকারী-বান্ধব অ্যাপ এবং স্বচ্ছ প্রক্রিয়াগুলির মাধ্যমে, আমরা ধার করা নির্ভরযোগ্য এবং সুবিধাজনক করার লক্ষ্য রাখি। আর্থিক ক্ষমতায়নের পথে আমাদের সাথে যোগ দিন এবং লেনদোরার সাথে আপনার সম্ভাবনা উন্মোচন করুন।"
+        android:textSize="16sp" />
+
+</LinearLayout>

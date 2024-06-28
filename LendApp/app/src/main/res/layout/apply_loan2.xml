@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyLoan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Loan Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- Back Button -->
+            <ImageButton
+                android:id="@+id/back_arrow"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/left_arrow"
+                android:contentDescription="back"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/loan_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loan"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Loan Amount -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan Amount (৳)"
+            android:textSize="14sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/loanAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_light"
+            android:paddingBottom="8dp"/>
+
+        <!-- Loan Duration -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan 7 Days"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Loan Details -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount received"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+        <TextView
+            android:id="@+id/amountReceived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৳1200"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Fee"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+        <TextView
+            android:id="@+id/totalFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৳800"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+        <TextView
+            android:id="@+id/totalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৳2000"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repaid Amount"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+        <TextView
+            android:id="@+id/repaidAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৳2000"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Payment Method -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method"
+            android:textSize="14sp"
+            android:paddingBottom="8dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+            <Spinner
+                android:id="@+id/paymentMethod"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:padding="8dp"/>
+        </RelativeLayout>
+
+        <!-- Payment Account Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Account Number"
+            android:textSize="14sp"
+            android:paddingBottom="8dp"/>
+        <EditText
+            android:id="@+id/paymentAccountNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Please input"
+            android:paddingBottom="16dp"
+            android:inputType="phone"/>
+
+        <!-- Confirm Payment Account Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm payment account number"
+            android:textSize="14sp"
+            android:paddingBottom="8dp"/>
+        <EditText
+            android:id="@+id/confirmPaymentAccountNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Please input"
+            android:paddingBottom="16dp"
+            android:inputType="phone"/>
+
+        <!-- Agreement Checkbox -->
+        <CheckBox
+            android:id="@+id/agreementCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree agreement of Loan Service and Privacy"
+            android:paddingBottom="16dp"/>
+
+        <!-- Confirm Loan Button -->
+        <Button
+            android:id="@+id/confirmLoan_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Loan"
+            android:background="@android:color/holo_orange_light"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>
